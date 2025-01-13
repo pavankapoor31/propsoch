@@ -10,7 +10,6 @@ import PropertyDetails from "../PropertyDetails/PropertyDetails";
 
 const AppContainer = styled.div`
   font-family: Arial, sans-serif;
-  padding: 16px;
   background-color: #f9f9f9;
   width: 100vw;
 `;
