@@ -7,6 +7,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import moment from "moment";
 import PropertyDetails from "../PropertyDetails/PropertyDetails";
+import { CircularProgress } from "@mui/material";
 
 const AppContainer = styled.div`
   font-family: Arial, sans-serif;
@@ -109,7 +110,7 @@ const onWishList = (property) => {
                     dataLength={properties.length}
                     next={fetchMoreData}
                     hasMore={hasMore}
-                    loader={<Loading>Loading...</Loading>}
+                    loader={<CircularProgress/>}
                     endMessage={<p style={{ textAlign: "center" }}>You have seen it all!</p>}
                 >
                     <PropertyList>

@@ -77,7 +77,7 @@ const PropertyCard = ({
                         setWishListed(true)
                     }}
                 >
-                    <FavoriteBorderIcon color={wishListed ? "error" : "action"} backgroundColor={wishListed ? "error" : "action"}/>
+                    <FavoriteBorderIcon color={wishListed ? "error" : "action"}/>
                 </IconButton>
             </Box>
 
