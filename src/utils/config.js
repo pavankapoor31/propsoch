@@ -1,0 +1,1 @@
+export const BOTTOM_NAVIGATION_OPTIONS = ["Explore","Wishlists","Show map","Log in"]
